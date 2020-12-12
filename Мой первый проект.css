@@ -1,0 +1,52 @@
+h1{
+ color:#2D572C;	
+font-size:100;	
+}
+h2{
+font-size:60;
+background:#FFFFFF;	
+}
+d{
+ color:#000000;	
+	
+}
+d{
+ background:#FFFFFF;	
+	font-size: 35;
+	font-family:"Comic Sans MS","Times New Roman",Veerdana,Ariial;
+}
+hr{
+	border-top-color:#FF6E6E;
+	border-left-color:#BAB64B;
+	border-right-color:#BAB64B;
+	border-bottom-color:#BAB64B;
+
+}
+Мой первый проект.png{
+	opacity:0.5;
+	
+}
+h2{
+ color:#ED9121;	
+	
+}
+body[background]{
+	color:hsla(100%, 90%, 20%, 0.1%);
+	
+}
+table{
+border-top-color:#BAB64B;
+border-left-color:#BAB64B;
+border-right-color:#BAB64B;
+border-bottom-color:#FF6E6E;
+height:300px;
+width:400px ;
+}
+table{
+opacity:0.8;
+
+}
+.lighter{
+font-weight:;
+
+}
