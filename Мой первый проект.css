@@ -35,7 +35,7 @@ h2{
 	
 }
 body[background]{
-	color:hsla(100%, 90%, 20%, 0.1%);
+background-attachment: fixed;
 	
 }
 table{
@@ -52,7 +52,4 @@ opacity:0.8;
 }
 .lighter{
 font-weight:;
-}
-background{
-	background-attachment: fixed;
 }
