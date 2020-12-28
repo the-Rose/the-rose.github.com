@@ -28,7 +28,7 @@ hr{
 }
 Мой первый проект.png{
 	opacity:0.5;
-	background-attachment: fixed;
+
 	
 }
 h2{
@@ -54,4 +54,7 @@ opacity:0.8;
 .lighter{
 font-weight:;
 
+}
+backgraund{
+background-attachment: fixed;
 }
