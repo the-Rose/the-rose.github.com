@@ -1,0 +1,8 @@
+.table-hover:hover{
+	background: lightyellow;
+}
+[class|=col]{
+	border: double 2px;
+}.link:hover{
+	text-decoration: none;
+}
