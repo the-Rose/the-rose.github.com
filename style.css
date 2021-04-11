@@ -1,0 +1,79 @@
+.header{
+	background: url('https://ngw-integration.lighthouselabs.io/app/oneshop/apps/image001.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	height: 1028px;
+}
+
+.overlay{
+	position: absolute;
+	background-color: rgba(128, 128, 128, 0.4);
+	top: 0;
+	left: 0;
+	min-height: 100%;
+	min-width: 100%;
+}
+
+.description{
+	position: absolute;
+	width: 100%;
+	top: 35%;
+	left: 0;
+	text-align: center;
+}
+
+.description h1{
+	color: #FFFFFF;
+	font-size: 4rem;
+}
+
+.description p{
+	color: #FFFFFF;
+	font-size: 1.5rem;
+}
+
+.about_container{
+	color: #343a40!important;
+}
+
+.head{
+	padding: 2em;
+}
+
+.vw_logo{
+	
+	padding-right: 10%;
+}
+
+.vw_logo .text-center{
+	padding-top: 8%;
+}
+
+.about_vw{
+	font-size: 1.5rem;
+	padding-left: 20%;
+	border-left: 4px solid #343a40;
+}
+
+.our_cars{
+	background-color: #343a40!important;
+	color: white;
+	margin: 4em 0;
+	padding: 4em;
+}
+
+footer{
+	background-color: #343a40!important;
+	font-style: italic;
+	
+	color: white;
+	margin: 4em 0;
+	padding: 4em;
+}
+.cat{
+	color: gray;
+}
+h1{
+	text-align: center:
+}
