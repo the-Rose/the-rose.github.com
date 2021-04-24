@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+*{
+	font-family: Raleway;
+}
+
+.header{
+	background: url('https://ngw-integration.lighthouselabs.io/app/oneshop/apps/image001.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.overlay{
+	position: absolute;
+	background-color: rgba(128, 128, 128, 0.4);
+	top: 0;
+	left: 0;
+	min-height: 100%;
+	min-width: 100%;
+}
+
+.description{
+	position: absolute;
+	width: 100%;
+	top: 35%;
+	left: 0;
+	text-align: center;
+}
+
+.description h1{
+	color: #FFFFFF;
+	font-size: 4rem;
+}
+
+.description p{
+	color: #FFFFFF;
+	font-size: 1.5rem;
+}
+
+.about_container{
+	color: #343a40!important;
+}
+
+.head{
+	padding: 2em;
+}
+
+.vw_logo{
+	
+	padding-right: 10%;
+}
+
+.vw_logo .text-center{
+	padding-top: 8%;
+}
+
+.about_vw{
+	font-size: 1.5rem;
+	padding-left: 20%;
+	border-left: 4px solid #343a40;
+}
+
+.our_cars, .team{
+	background-color: #343a40!important;
+	color: white;
+	margin: 4em 0;
+	padding: 4em;
+}
+
+.item{
+	position: relative;
+}
+
+.item img{
+		border: 4px solid white;
+}
+
+.des{
+	background: white;
+	color: #343a40!important;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.2rem;
+}
+
+.des span{
+	font-size: 0.9rem;
+}
+
+.feedback{
+	position: relative;
+	padding: 2em;
+}
+
+.feedback h1{
+	color: #343a40!important;
+	padding-top: 2em;
+}
+
+.cat{
+	height: 600%;
+	width: 350%;
+}
+
+.news{
+	position: relative;
+	padding: 4em;
+}

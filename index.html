@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!-- Кодировка веб-страницы -->
+    <meta charset="utf-8">
+    <!-- Настройка viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Добавление иконки сайта -->
+    <link rel="shortcut icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Volkswagen_logo_2019.svg/1200px-Volkswagen_logo_2019.svg.png">
+
+    <!-- Подключаем Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Подключаем наш CSS -->
+    <link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>  
+    <!-- Контент страницы -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Volkswagen</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav mr-4">
+                <li class="nav-item">
+                    <a class="nav-link" data-value="about_us" href="#">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-value="our_cars" href="#">Our cars</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-value="news" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-value="our_managers" href="#">Our managers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-value="get_in_touch" href="#">Get in Touch</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="header img-fluid">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="description">
+                <h1>VOLKSWAGEN</h1>
+                <br>
+                <p>DAS AUTO</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="container about_container" id="about_us">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1 class="head">About us</h1>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 vw_logo">
+                <img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Volkswagen_logo_2019.svg/1200px-Volkswagen_logo_2019.svg.png">
+                <h3 class="text-center"> Volkswagen </h3>
+            </div>
+            <div class="col-12 col-sm-12 col-md-8 col-lg-8">
+                <p class="about_vw">
+                    <b>Volkswagen</b> - is a German motor vehicle manufacturer founded in 1937 by the German Labour Front, known for the iconic Beetle and headquartered in Wolfsburg. 
+                    <br><br>
+                    Popular models of Volkswagen include Golf, Jetta, Passat, Atlas, and Tiguan.
+                    <br><br>
+                    The German term Volk translates to "people", thus Volkswagen translates to "people's car".
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="our_cars" id="our_cars">
+    <h1 class="text-center">Our cars</h1>
+    <br><br>
+	<div class="container">
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		    <ol class="carousel-indicators">
+				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		    </ol>
+		    <div class="carousel-inner">
+				<div class="carousel-item active" data-interval="1000">
+					<img class="d-block w-100 cat" src="https://cdn-ua.vw-nutzfahrzeuge.at/media/Content_Model_Equipment_Lightbox_Child_MediaBig_Image_Component/51670-634324_lightbox-430315-mediaBig-child/dh-781-00fe24/552a1a73/1609762135/vw-amarok-big.jpg" alt="Первый слайд">
+				</div>
+				<div class="carousel-item" data-interval="2000">
+					<img class="d-block w-100 cat" src="https://cdn-ua.volkswagen.at/media/Abstract_Image_B1280_Component.Box_Stage_Fullscreen_Item_Media_Image_Image_Component/7123-stage-549383-media-child-image-b1280/dh-3008-5297d0/ce35e5f9/1607089242/tiguan-r-line-tn1868.jpg" alt="Второй слайд">
+				</div>
+				<div class="carousel-item" data-interval="3000">
+					<img class="d-block w-100 cat" src="https://cdn-ua.volkswagen.at/media/Abstract_Image_B1280_Component.Box_Stage_Fullscreen_Item_Media_Image_Image_Component/7123-stage-587165-media-child-image-b1280/dh-3008-5297d0/b3e6a892/1615536172/pa4293-online.jpg" alt="Третий слайд">
+				</div>
+			</div>
+	    </div>
+	  </a>
+	  
+	</div>
+</div>
+
+    <div class="news" id="news">
+        <h1 class="text-center">News</h1>
+        <br><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="card">
+                        <div class="card-img">
+                            <img class="img-fluid" src="https://cdn-ua.volkswagen.at/media/Abstract_Image_B560_Component.Content_MoodGallery_MediaList_Item_Image_Component/7261-89334_1831-content-712540-mediaList-484412-child-b560/dh-2955-cba71c/33a4c18c/1602136204/db2020au01019.jpg">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">World Premiere of New Tiguan</h4>
+                            <p class="card-text">
+                                
+                                <span style="font-style: italic; color: grey;"> 
+                                    European bestseller update - now Tiguan is not just about practicality and functionality: №1. 
+                                </span> 
+                                <br><br>
+                                It is the most successful Volkswagen of today and the absolute best-selling SUV in Europe Premium Performance. From now on, it is also available in the Tiguan R model version, with 320 hp.
+                                IQ Drive and Travel Assist. 
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <a class="btn btn-info btn-block" href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="card">
+                        <div class="card-img">
+                            <img class="img-fluid" src="https://cdn-ua.volkswagen.at/media/Abstract_Image_B560_Component.Content_MoodGallery_MediaList_Item_Image_Component/7261-89334_1831-content-712540-mediaList-484409-child-b560/dh-2955-cba71c/fc8403c8/1602136204/db2020au01010.jpg">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">World Premiere of New Tiguan</h4>
+                            <p class="card-text">
+                                
+                                <span style="font-style: italic; color: grey;"> 
+                                    European bestseller update - now Tiguan is not just about practicality and functionality: №1. 
+                                </span> 
+                                <br><br>
+                                It is the most successful Volkswagen of today and the absolute best-selling SUV in Europe Premium Performance. From now on, it is also available in the Tiguan R model version, with 320 hp.
+                                IQ Drive and Travel Assist. 
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <a class="btn btn-info btn-block" href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="card">
+                        <div class="card-img">
+                            <img class="img-fluid" src="https://cdn-ua.volkswagen.at/media/Abstract_Image_B560_Component.Content_MoodGallery_MediaList_Item_Image_Component/7261-89334_1831-content-712540-mediaList-484411-child-b560/dh-2955-cba71c/ee9bed14/1602136204/db2020au01018.jpg">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">World Premiere of New Tiguan</h4>
+                            <p class="card-text">
+                                
+                                <span style="font-style: italic; color: grey;"> 
+                                    European bestseller update - now Tiguan is not just about practicality and functionality: №1. 
+                                </span> 
+                                <br><br>
+                                It is the most successful Volkswagen of today and the absolute best-selling SUV in Europe Premium Performance. From now on, it is also available in the Tiguan R model version, with 320 hp.
+                                IQ Drive and Travel Assist. 
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <a class="btn btn-info btn-block" href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="team" id="our_managers">
+        <h1 class="text-center">Our managers</h1>
+        <br><br>
+        <div class="container">
+            <div class="row">
+                 <div class="col-12 col-sm-12 col-md-3 col-lg-3 item">
+                    <img src="https://36z59wriv543qd814533ma8z-wpengine.netdna-ssl.com/wp-content/uploads/2018/11/303_Berggruen_Institute-Nils_Gilmani-e1542734040382-400x400.jpg" class="img-fluid">
+                    <div class="des">
+                        NICKOLAY SHEVCHENKO
+                        <br>
+                        <span class="text-muted">SEO</span>
+                    </div>
+                </div>
+                 <div class="col-12 col-sm-12 col-md-3 col-lg-3 item">
+                    <img src="https://www.globalvolatilitysummit.com/wp-content/uploads/2015/11/Jean-Francois-Man-AHL-edit-400x400.jpg" class="img-fluid">
+                    <div class="des">
+                        IVAN PLUSHCH
+                        <br>
+                        <span class="text-muted">Marketing Director</span>
+                    </div>
+                </div>
+                 <div class="col-12 col-sm-12 col-md-3 col-lg-3 item">
+                    <img src="https://intenseplugin.com/wp-content/uploads/2013/08/Person1-400x400.jpg" width="100%">
+                    <div class="des">
+                        ILONA IVANOVA
+                        <br>
+                        <span class="text-muted">Sales Manager</span>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-3 col-lg-3 item">
+                    <img src="https://avatars.githubusercontent.com/u/5399488?s=400&v=4" class="img-fluid">
+                    <div class="des">
+                        DMITRIY PERETS
+                        <br>
+                        <span class="text-muted">Business Analyst</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="feedback" id="get_in_touch">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <h1 class="text-center">Get in Touch</h1>
+                </div>
+                <div class="col-12 col-sm-12 col-md-8 col-lg-8">
+                    <div class="form-group">
+                        <input class="form-control form-control-lg" type="text" name="username" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control form-control-lg" type="email" name="useremail" placeholder="example@mail.com">
+                     </div>
+                     <div class="form-group">
+                        <textarea class="form-control form-control-lg" placeholder="Put feedback here!"></textarea>
+                     </div>
+                     <input class="btn btn-outline-dark btn-block btn-lg" type="submit" name="send">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Подключаем jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <!-- Подключаем плагин Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    
+    <!-- Подключаем Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous" ></script>
+
+    <script type="text/javascript">
+		$(document).ready(function(){
+		$('.header').height($(window).height());
+
+			$(".navbar a").click(function(){
+			$("body,html").animate({
+			scrollTop:$("#" + $(this).data('value')).offset().top
+		},1000)
+	})
+});
+</script>
+
+</body>
+</html>
