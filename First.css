@@ -1,0 +1,72 @@
+*{
+	word-spacing: 10px;
+	color: #F0FFF0;
+}
+body{
+	border: 8px double #09326C;
+	background: #4169E1;
+	font-size: 18px;
+	font-family: "Comic Sans MS","Times New Roman",Veerdana,Ariial;
+}
+.header, .footer {
+	border: 8px double #09326C;
+	background: black;
+	color: white;
+}
+.header{
+	border: 8px double #09326C;
+	font-weight: bold;
+	height: 50px;
+	text-align: center;
+}
+.aside {
+	border: 8px double black;
+	width: 30%;
+	float: left;
+}
+.main {
+	border: 8px double #09326C;
+	color: #1E2460;
+	background-color: #20B2AA;
+	margin-left: 30%;
+	padding: 17px;
+}
+.wrapper {
+	border: 8px double #09326C;
+	background-color: ##20B2AA;
+    background-color: #FFFFFF;
+}
+.ty{
+	border: 8px double #09326C;
+	width: 50%;
+}
+hr{
+		border: 8px double #09326C;
+}
+span{
+	font-size: 35;
+}
+h3{
+	border: 8px double #09326C;
+	text-align: center;
+}
+.rad{
+	margin-left: 2%;
+}
+table{
+	margin-left: 2%;
+	border: 20px double #293133 ;
+	
+}
+@import url(mobile.css)
+{
+}
+@import (max-device-width:768px)
+{
+.wraper{
+	width: 10000px;
+}
+}
+@import url(Computer.css) (min-device-width:769px) and (max-device-width:1440px)
+{
+}
